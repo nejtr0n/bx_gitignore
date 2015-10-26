@@ -10,10 +10,10 @@
     ],
     "scripts": {
         "post-update-cmd": [
-            "Nejtr0n\Bx_gitignore\Installer::copy"
+            "Corley\Composer\MyHook::localConf"
         ],
         "post-install-cmd": [
-            "Nejtr0n\Bx_gitignore\Installer::copy"
+            "Corley\Deploy\MyHook::localConf"
         ]
     }
 }
