@@ -10,7 +10,10 @@
     ],
     "scripts": {
         "post-update-cmd": [
-            "php -r \"copy('.gitgnore', '.gitgnore1');\""
+            "Nejtr0n\Bx_gitignore\Installer::copy"
+        ],
+        "post-install-cmd": [
+            "Nejtr0n\Bx_gitignore\Installer::copy"
         ]
     }
 }
