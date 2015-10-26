@@ -7,5 +7,10 @@
             "name": "Nejtr0n",
             "email": "a6y@xakep.ru"
         }
-    ]
+    ],
+    "scripts": {
+        "post-update-cmd": [
+            "php -r \"copy('.gitgnore', '.gitgnore1');\""
+        ]
+    }
 }
