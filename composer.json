@@ -1,0 +1,11 @@
+{
+    "name": "nejtr0n/bx_gitignore",
+    "description": "Bitrix default git ignore script",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nejtr0n",
+            "email": "a6y@xakep.ru"
+        }
+    ],
+}
