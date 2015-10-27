@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-0": {
-            "Nejtr0n": "src/"
+            "Nejtr0n\\Bx_gitignore": "src/"
         }
     },
     "scripts": {
