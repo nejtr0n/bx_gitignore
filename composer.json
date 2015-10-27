@@ -8,6 +8,11 @@
             "email": "a6y@xakep.ru"
         }
     ],
+    "autoload": {
+        "psr-0": {
+            "Nejtr0n": "src/"
+        }
+    },
     "scripts": {
         "post-update-cmd": [
             "Corley\Composer\MyHook::localConf"
