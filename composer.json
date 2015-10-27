@@ -7,24 +7,5 @@
             "name": "Nejtr0n",
             "email": "a6y@xakep.ru"
         }
-    ],
-    "autoload": {
-        "psr-0": {
-            "Nejtr0n\\Bx_gitignore": "src/"
-        }
-    },
-    "scripts": {
-        "post-update-cmd": [
-            "Nejtr0n\\Bx_gitignore\\Installer::copy"
-        ],
-        "post-install-cmd": [
-            "Nejtr0n\\Bx_gitignore\\Installer::copy"
-        ],
-        "post-package-update": [
-            "Nejtr0n\\Bx_gitignore\\Installer::copy"
-        ],
-        "post-package-install": [
-            "Nejtr0n\\Bx_gitignore\\Installer::copy"
-        ]
-    }
+    ]
 }
