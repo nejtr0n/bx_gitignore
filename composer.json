@@ -15,16 +15,16 @@
     },
     "scripts": {
         "post-update-cmd": [
-            "Nejtr0n\\Installer::copy"
+            "Nejtr0n\\Bx_gitignore\\Installer::copy"
         ],
         "post-install-cmd": [
-            "Nejtr0n\\Installer::copy"
+            "Nejtr0n\\Bx_gitignore\\Installer::copy"
         ],
         "post-package-update": [
-            "Nejtr0n\\Installer::copy"
+            "Nejtr0n\\Bx_gitignore\\Installer::copy"
         ],
         "post-package-install": [
-            "Nejtr0n\\Installer::copy"
+            "Nejtr0n\\Bx_gitignore\\Installer::copy"
         ]
     }
 }
