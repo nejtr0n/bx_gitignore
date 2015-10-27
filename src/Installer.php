@@ -1,5 +1,5 @@
 <?php
-namespace Nejtr0n/Bx_gitignore;
+namespace Nejtr0n\Bx_gitignore;
 use Composer\Script\Event;
 use Composer\Installer\PackageEvent;
 
