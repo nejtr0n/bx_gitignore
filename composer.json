@@ -19,6 +19,12 @@
         ],
         "post-install-cmd": [
             "Nejtr0n\\Installer::copy"
+        ],
+        "post-package-update": [
+            "Nejtr0n\\Installer::copy"
+        ],
+        "post-package-install": [
+            "Nejtr0n\\Installer::copy"
         ]
     }
 }
