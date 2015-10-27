@@ -15,10 +15,10 @@
     },
     "scripts": {
         "post-update-cmd": [
-            "Nejtr0n\Installer::copy"
+            "Nejtr0n\\Installer::copy"
         ],
         "post-install-cmd": [
-            "Nejtr0n\Installer::copy"
+            "Nejtr0n\\Installer::copy"
         ]
     }
 }
