@@ -50,5 +50,16 @@ Thumbs.db
 # Bitrix #
 #################
 /upload/*
+# исключаем ВСЮ папку bitrix, но ниже настроим включение нужных папок
+# или используйте папку /local, чтобы полностью исключить папку bitrix
 /bitrix/*
+# включаем папку components, но исключаем components/bitrix
+!/bitrix/components
+/bitrix/components/bitrix/
+# включаем папку php_interface и исключаем файл dbconn.php
+!/bitrix/php_interface/
+/bitrix/php_interface/dbconn.php
+/bitrix/php_interface/*.bak
+# включаем папку шаблонов
+!/bitrix/templates/
 #################
